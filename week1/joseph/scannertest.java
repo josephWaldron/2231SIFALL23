@@ -45,6 +45,6 @@ public class scannertest {
         else{
             System.out.println("Invalid day");
         }
-        //scanner.close();
+        scanner.close();
     }
 }
