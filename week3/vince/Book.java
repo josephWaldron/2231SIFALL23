@@ -5,39 +5,26 @@ public class Book {
     private int pagesRead;
     private int totalPages;
 
-    // Constructor
     public Book(String title, int totalPages) {
         this.title = title;
         this.pagesRead = 0;
         this.totalPages = totalPages;
     }
-
-    // Getter for title
     public String getTitle() {
         return title;
     }
-
-    // Setter for title
     public void setTitle(String title) {
         this.title = title;
     }
-
-    // Getter for pagesRead
     public int getPagesRead() {
         return pagesRead;
     }
-
-    // Setter for pagesRead
     public void setPagesRead(int pagesRead) {
         this.pagesRead = pagesRead;
     }
-
-    // Getter for totalPages
     public int getTotalPages() {
         return totalPages;
     }
-
-    // Setter for totalPages
     public void setTotalPages(int totalPages) {
         this.totalPages = totalPages;
     }
